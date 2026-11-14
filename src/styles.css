@@ -3,3 +3,27 @@
 @media(min-width:701px) and (max-width:950px){.hero{padding-left:7%;padding-right:7%}.menu-wrap{padding-left:25px;padding-right:25px}.item-heading h3{font-size:12px}.dish-icon{width:49px;height:49px}}
 
 .combos-section{margin:0 0 83px;scroll-margin-top:95px}.combos-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.combo-card{display:flex;flex-direction:column;align-items:flex-start;padding:22px 20px 18px;border:1px solid #e6d3bf;border-radius:9px;background:#fffdf9;min-width:0;box-shadow:0 8px 24px #54220c08}.combo-card-top{display:flex;align-items:center;justify-content:space-between;width:100%;margin-bottom:18px}.combo-icon{width:43px;height:43px;display:grid;place-items:center;border-radius:50%;background:#f4e4d1;font-size:23px}.combo-label{font-size:8px;letter-spacing:1.4px;font-weight:700;color:var(--rust);background:#f7ebe0;border-radius:20px;padding:7px 9px}.combo-card h3{font-family:'Playfair Display',serif;font-size:18px;line-height:1.35;color:var(--ink);margin:0 0 8px}.combo-items{font-size:11px;line-height:1.55;color:var(--muted);margin:0 0 18px}.combo-pricing{display:flex;flex-direction:column;gap:3px;margin-top:auto;margin-bottom:17px}.combo-original{font-size:10px;color:#9c8778;text-decoration:line-through}.combo-price{font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:var(--deep)}.combo-order{width:100%;display:flex;align-items:center;justify-content:center;gap:8px;background:var(--rust);color:#fff8ec;border-radius:5px;padding:11px 12px;font-size:11px;font-weight:700;transition:background .2s}.combo-order:hover{background:var(--deep)}@media(max-width:700px){.combos-section{margin-bottom:58px}.combos-grid{grid-template-columns:1fr;gap:11px}.combo-card{padding:18px}.combo-card h3{font-size:17px}.combo-items{font-size:10px;margin-bottom:13px}.combo-card-top{margin-bottom:13px}}@media(min-width:701px) and (max-width:950px){.combos-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.combos-feature {
+  max-width: 1030px;
+  margin: 0 auto;
+  padding: 72px 32px 0;
+}
+
+.combos-feature .combos-section {
+  margin-bottom: 0;
+}
+
+.individual-menu {
+  padding-top: 62px;
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 700px) {
+  .combos-feature { padding: 45px 19px 0; }
+  .individual-menu { padding-top: 50px; }
+}
+
+@media (min-width: 701px) and (max-width: 950px) {
+  .combos-feature { padding-left: 25px; padding-right: 25px; }
+}
